@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Bangers&family=Bungee&family=Cinzel:wght@400;500;600&family=Cormorant:ital,wght@0,300;1,400&family=Creepster&family=Reggae+One&family=Satisfy&family=Signika:wght@300;600&family=Source+Serif+4:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-background {
+  border-top: 0.1rem;
+  color: #fff;
+  background-color: #212529;
+}
+
+.nav-background .navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.nav-background .navbar-light .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-background .navbar-light .navbar-nav .nav-item {
+  font-family: 'Amita', cursive;
+  font-family: 'Bangers', cursive;
+  font-family: 'Bungee', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant', serif;
+  font-family: 'Creepster', cursive;
+  font-family: 'Reggae One', cursive;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
+  padding: 0.5rem;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.nav-background .navbar-light .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-background .navbar-light .navbar-nav .nav-item .active {
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  text-decoration: none;
+}
+
+#header {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .main-row h2 {
+  font-family: 'Alegreya SC', serif;
+  font-size: 25px;
+}
+
+#header .main-row h3 {
+  font-family: 'Alegreya SC', serif;
+  font-size: 19px;
+}
+
+#header .main-row q {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#header .main-row .mt-3 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 500px;
+  -webkit-transition-property: background-color,border-color,color,-webkit-box-shadow,-webkit-filter;
+  transition-property: background-color,border-color,color,-webkit-box-shadow,-webkit-filter;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-property: background-color,border-color,color,box-shadow,filter,-webkit-box-shadow,-webkit-filter;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #616467;
+  -webkit-box-shadow: inset 0 0 0 2px #616467;
+          box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  height: 40px;
+}
+
+#header .main-row .mt-3 :hover {
+  color: #fff;
+  background-color: #616467;
+}
+
+#header .img-secand {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px white solid;
+  overflow: hidden;
+  -webkit-transform: translatey(0px);
+          transform: translatey(0px);
+  -webkit-animation: float 3s ease-in-out infinite;
+          animation: float 3s ease-in-out infinite;
+}
+
+#header .img-secand img {
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
